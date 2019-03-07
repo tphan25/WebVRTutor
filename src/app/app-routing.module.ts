@@ -7,6 +7,7 @@ import { OculusGoComponent } from './pages/oculus-go/oculus-go.component';
 import { ViveComponent } from './pages/vive/vive.component';
 import { WmrComponent } from './pages/wmr/wmr.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
+import { CardboardComponent } from './pages/cardboard/cardboard.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'oculusgo', component: OculusGoComponent },
   { path: 'vive', component: ViveComponent },
   { path: 'wmr', component: WmrComponent },
-  { path: 'resources', component: ResourcesComponent }
+  { path: 'resources', component: ResourcesComponent },
+  { path: 'cardboard', component: CardboardComponent }
 
 ];
 

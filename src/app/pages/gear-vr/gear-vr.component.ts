@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gear-vr.component.scss']
 })
 export class GearVRComponent implements OnInit {
-
+  imgLink = 'assets/logos/gearvr.png';
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cardboard.component.scss']
 })
 export class CardboardComponent implements OnInit {
-
+  imgLink = 'assets/logos/cardboard.png';
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./oculus-go.component.scss']
 })
 export class OculusGoComponent implements OnInit {
-
+  imgLink = 'assets/logos/oculusgo.png';
   constructor() { }
 
   ngOnInit() {

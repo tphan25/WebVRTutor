@@ -1,0 +1,16 @@
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-text">Getting started with WebVR</h3>
+    <ng-template ngFor let-browser [ngForOf]="browserList">
+      <img src="{{ browser.imageLink }}" alt="..">
+      <h4>{{ browser.name }}</h4>
+      <ul class="list-unstyled" *ngFor="let instruction of browser.instructions; index as i;">
+        <li>
+          <h5>Step {{ i + 1}}: {{ instruction.title }}</h5> 
+          <p class="instruction">{{ instruction.description }}</p>
+        </li>
+      </ul>
+    </ng-template>
+  </div>
+</div>
+

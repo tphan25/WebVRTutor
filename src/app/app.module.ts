@@ -12,6 +12,7 @@ import { OculusGoComponent } from './pages/oculus-go/oculus-go.component';
 import { CardboardComponent } from './pages/cardboard/cardboard.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
 import { HeaderComponent } from './components/header/header.component';
+import { InstructionsComponent } from './components/instructions/instructions.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HeaderComponent } from './components/header/header.component';
     OculusGoComponent,
     CardboardComponent,
     ResourcesComponent,
-    HeaderComponent
+    HeaderComponent,
+    InstructionsComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vive.component.scss']
 })
 export class ViveComponent implements OnInit {
-
+  imgLink = 'assets/logos/htcvive.jpg';
   constructor() { }
 
   ngOnInit() {
