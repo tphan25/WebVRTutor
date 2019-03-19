@@ -7,6 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViveComponent implements OnInit {
   imgLink = 'assets/logos/htcvive.jpg';
+  headDesc = '';
+  browsers = [
+    {
+      imageLink: '',
+      name: '',
+      instructions: [
+        {
+          title: '',
+          description: ''
+        }
+      ]
+    }
+  ];
   constructor() { }
 
   ngOnInit() {

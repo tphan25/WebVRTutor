@@ -1,3 +1,19 @@
-<p>
-  resources works!
-</p>
+<div class="card">
+  <div class="card-body">
+    <h3>Resources & Links</h3>
+    <p>{{ resourceDescription }}</p>
+  </div>
+  
+</div>
+<div class="card">
+  <div class="card-body">
+      <ul class="list-unstyled">
+          <li class="list-group-item" *ngFor="let r of resourceList; let i = index;">
+            <img src="{{ r.image }}" alt="tbd">
+            <a href="{{ r.link }}">{{ r.link }}</a>
+            <h3>{{ r.title }}</h3>
+            <p>{{ r.description }}</p>
+          </li>
+        </ul>
+  </div>
+</div>

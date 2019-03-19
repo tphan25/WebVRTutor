@@ -4,10 +4,11 @@
     <ng-template ngFor let-browser [ngForOf]="browserList">
       <img src="{{ browser.imageLink }}" alt="..">
       <h4>{{ browser.name }}</h4>
-      <ul class="list-unstyled" *ngFor="let instruction of browser.instructions; index as i;">
-        <li>
+      <ul class="list-unstyled" >
+        <li *ngFor="let instruction of browser.instructions; index as i;">
           <h5>Step {{ i + 1}}: {{ instruction.title }}</h5> 
           <p class="instruction">{{ instruction.description }}</p>
+          <a *ngIf="instruction.link" class="instruction" href="{{ instruction.link }}">{{ instruction.link }}</a>
         </li>
       </ul>
     </ng-template>

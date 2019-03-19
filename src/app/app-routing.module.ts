@@ -17,7 +17,11 @@ const routes: Routes = [
   { path: 'vive', component: ViveComponent },
   { path: 'wmr', component: WmrComponent },
   { path: 'resources', component: ResourcesComponent },
-  { path: 'cardboard', component: CardboardComponent }
+  { path: 'cardboard', component: CardboardComponent },
+  { path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
 
 ];
 

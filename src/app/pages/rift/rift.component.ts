@@ -20,7 +20,8 @@ export class RiftComponent implements OnInit {
         {
           title: 'Set up your headset',
           description: 'This tutorial is intended to help set up WebVR; as such, you should go through the Oculus ' +
-            'Rift setup with the instructions here before proceeding: https://support.oculus.com/857827607684748/'
+            'Rift setup with the instructions here before proceeding further:',
+          link: 'https://support.oculus.com/857827607684748/'
         },
         {
           title: 'Configure your Oculus Settings',
@@ -41,8 +42,8 @@ export class RiftComponent implements OnInit {
             'In general, WebVR apps can be started in your headset by navigating to a website and clicking on the VR logo in the ' +
             'bottom corner.'
         }
-
-    ]}
+      ]
+    }
   ];
 
    constructor() { }
